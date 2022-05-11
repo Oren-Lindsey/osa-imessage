@@ -15,7 +15,7 @@ function warn(str) {
     }
 }
 
-if (versions.broken.includes(currentVersion)) {
+/*if (versions.broken.includes(currentVersion)) {
     console.error(
         ol(`This version of macOS \(${currentVersion}) is known to be
             incompatible with osa-imessage. Please upgrade either
@@ -28,7 +28,7 @@ if (!versions.working.includes(currentVersion)) {
     warn(`This version of macOS \(${currentVersion}) is currently
           untested with this version of osa-imessage. Proceed with
           caution.`)
-}
+}*/
 
 // Instead of doing something reasonable, Apple stores dates as the number of
 // seconds since 01-01-2001 00:00:00 GMT. DATE_OFFSET is the offset in seconds
